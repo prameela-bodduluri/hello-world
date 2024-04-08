@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dbt__Project_CL</fullName>
+    <fields>Name</fields>
+    <fields>dbt__Active__c</fields>
+    <fields>dbt__Start_Date__c</fields>
+    <fields>dbt__End_Date__c</fields>
+    <label>Project CL</label>
+</CompactLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dbt__Duration</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL( dbt__Type__c , &quot;Absence&quot;) ,
+ dbt__Duration__c  &gt; 8)</errorConditionFormula>
+    <errorDisplayField>dbt__Duration__c</errorDisplayField>
+    <errorMessage>Duration cannot be greater than 8 for Absence.</errorMessage>
+</ValidationRule>

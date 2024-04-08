@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dbt__Attendance_type_Compact_Layout</fullName>
+    <fields>dbt__Employee__c</fields>
+    <fields>dbt__Date__c</fields>
+    <fields>dbt__Project__c</fields>
+    <fields>dbt__Activity__c</fields>
+    <fields>dbt__Duration__c</fields>
+    <label>Attendance type Compact Layout</label>
+</CompactLayout>

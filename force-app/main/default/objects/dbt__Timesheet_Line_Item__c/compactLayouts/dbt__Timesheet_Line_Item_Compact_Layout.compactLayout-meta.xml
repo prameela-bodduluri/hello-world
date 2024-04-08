@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dbt__Timesheet_Line_Item_Compact_Layout</fullName>
+    <fields>dbt__Employee__c</fields>
+    <fields>dbt__Date__c</fields>
+    <fields>dbt__Project__c</fields>
+    <fields>dbt__Timesheet__c</fields>
+    <fields>dbt__Duration__c</fields>
+    <label>Timesheet Line Item Compact Layout</label>
+</CompactLayout>

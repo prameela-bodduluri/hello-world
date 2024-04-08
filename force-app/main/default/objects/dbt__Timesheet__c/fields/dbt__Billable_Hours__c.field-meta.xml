@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dbt__Billable_Hours__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Billable Hours</label>
+    <summarizedField>dbt__Timesheet_Line_Item__c.dbt__Duration__c</summarizedField>
+    <summaryFilterItems>
+        <field>dbt__Timesheet_Line_Item__c.dbt__Billable__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>dbt__Timesheet_Line_Item__c.dbt__Type__c</field>
+        <operation>equals</operation>
+        <value>Attendance</value>
+    </summaryFilterItems>
+    <summaryForeignKey>dbt__Timesheet_Line_Item__c.dbt__Timesheet__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
